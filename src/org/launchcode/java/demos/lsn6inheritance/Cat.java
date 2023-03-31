@@ -1,7 +1,9 @@
 package org.launchcode.java.demos.lsn6inheritance;
 
 public class Cat {
-
+    public Cat (){
+        weight =13;
+    }
     private boolean tired = false;
     private boolean hungry = false;
     private double weight;

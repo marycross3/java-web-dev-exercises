@@ -1,4 +1,4 @@
-package org.launchcode.java.demos.areaofcircle;
+package org.launchcode.java.demos.Studios;
 import java.util.Scanner;
 public class Area {
     public static void main(String[] args) {
