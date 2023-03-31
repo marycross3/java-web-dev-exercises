@@ -27,7 +27,7 @@ public class CountingCharacters {
         //String testString = input.nextLine();
         char[] charactersInString = data.toCharArray();
         HashMap<Character, Integer> characters = new HashMap<>();
-        Integer count = 0;
+
         for (char i: charactersInString){
             if (!characters.containsKey((i)) && Character.isLetter(i)) {
                 characters.put(i, 1);
