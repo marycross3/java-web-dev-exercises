@@ -1,13 +1,14 @@
 package exercises.technology;
+import java.util.concurrent.atomic.AtomicReference;
+public class AbstractEntity{
+    private static int id=0;
 
-public class AbstractEntity {
-    private final int id;
-
-    public AbstractEntity(int id){
+    public AbstractEntity(){
         this.id = id;
     }
 
     public int getId() {
+        id ++;
         return id;
     }
 }

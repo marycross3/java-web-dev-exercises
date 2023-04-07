@@ -1,6 +1,6 @@
 package exercises.technology;
 
-public class Computer {
+public class Computer extends AbstractEntity{
     private int ram;
     private int storage;
     private boolean hasKeyboard;
@@ -11,7 +11,10 @@ public class Computer {
         this.ram = ram;
         this.storage = storage;
         this.hasKeyboard = hasKeyboard;
+        this.getId();
+
     }
+
 
     public void increaseRam(int number){
         this.ram = this.ram + number;

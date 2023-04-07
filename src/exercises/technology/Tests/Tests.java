@@ -1,5 +1,6 @@
 package exercises.technology.Tests;
 
+import exercises.technology.Computer;
 import exercises.technology.Laptop;
 import exercises.technology.SmartPhone;
 import org.junit.Test;
@@ -28,6 +29,14 @@ public class Tests {
     @Test public void Abstract(){
         SmartPhone iphone12 = new SmartPhone(64,64,false,29);
         //iphone12.get
+    }
+
+    @Test public void checkUniqueIds(){
+        Computer macbook = new Computer(32,32,true);
+        Computer chromebook = new Computer(16,10,true);
+
+        chromebook.getId();
+        assertEquals(1,0,0.001);
     }
 
 }
