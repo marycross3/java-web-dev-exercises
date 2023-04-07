@@ -1,6 +1,6 @@
 package org.launchcode.java.demos.lsn6inheritance;
 
-public class Cat {
+public abstract class Cat {
     public Cat (){
         weight =13;
     }
