@@ -6,11 +6,20 @@ public abstract class Ingredient {
     private String name;
     private double cost;
     private ArrayList<String> allergens;
+    private ArrayList<String> toppings;
 
     public Ingredient(String aName, double aCost, ArrayList<String> someAllergens){
         name = aName;
         cost = aCost;
         allergens = someAllergens;
+    }
+
+    public ArrayList<String> getToppings() {
+        return toppings;
+    }
+
+    public void setToppings(ArrayList<String> toppings) {
+        this.toppings = toppings;
     }
 
     public String getName() {
